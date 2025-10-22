@@ -126,7 +126,7 @@ const Index = () => {
         <div className="hero-gradient absolute inset-0 z-0 pointer-events-none"></div>
         <div className="section-container relative z-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-            KRMAS • Krish's AI Agency
+            KRMAS • AI Automation Agency
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-muted-foreground">
             Future-Proof Your Business with AI Automation
