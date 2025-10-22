@@ -91,7 +91,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="section-container">
           <div className="flex items-center justify-between h-16">
-            <div className="text-2xl font-bold tracking-tight">KRMA</div>
+            <div className="text-2xl font-bold tracking-tight">KRMAS</div>
             <div className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection("home")} className="hover:text-accent transition-colors">
                 Home
@@ -126,7 +126,7 @@ const Index = () => {
         <div className="hero-gradient absolute inset-0 z-0 pointer-events-none"></div>
         <div className="section-container relative z-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-            KRMA • Krish's AI Agency
+            KRMAS • Krish's AI Agency
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-muted-foreground">
             Future-Proof Your Business with AI Automation
@@ -274,11 +274,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Why Choose KRMA Section */}
+      {/* Why Choose KRMAS Section */}
       <section className="section-padding bg-secondary/20">
         <div className="section-container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose KRMA</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose KRMAS</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Work directly with Krish for fast, personal delivery using cutting-edge tools.
             </p>
@@ -366,15 +366,15 @@ const Index = () => {
       <section id="about" className="section-padding bg-secondary/20">
         <div className="section-container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">About KRMA</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-8">About KRMAS</h2>
           </div>
 
           <div className="max-w-4xl mx-auto mb-16">
             <p className="text-lg mb-6">
-              <strong>Hi, I'm Krish.</strong> I started KRMA to help businesses harness the power of AI without the complexity. With years of experience in automation and AI development, I've seen firsthand how the right solutions can transform operations, boost efficiency, and drive growth.
+              <strong>Hi, I'm Krish.</strong> I started KRMAS to help businesses harness the power of AI without the complexity. With years of experience in automation and AI development, I've seen firsthand how the right solutions can transform operations, boost efficiency, and drive growth.
             </p>
             <p className="text-lg text-muted-foreground">
-              <strong>Our Story & Mission:</strong> KRMA was born from a simple belief: AI should be accessible, practical, and deliver real results. We're not about flashy tech for the sake of it. We focus on building tools that solve real problems—whether it's saving your team hours each week, capturing more leads, or improving customer satisfaction. Our mission is to make AI work for you, seamlessly and affordably.
+              <strong>Our Story & Mission:</strong> KRMAS was born from a simple belief: AI should be accessible, practical, and deliver real results. We're not about flashy tech for the sake of it. We focus on building tools that solve real problems—whether it's saving your team hours each week, capturing more leads, or improving customer satisfaction. Our mission is to make AI work for you, seamlessly and affordably.
             </p>
           </div>
 
@@ -447,7 +447,7 @@ const Index = () => {
         <div className="section-container text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Automate Your Business?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Book a free demo call and see what KRMA can do for you.
+            Book a free demo call and see what KRMAS can do for you.
           </p>
           <Button 
             size="lg" 
@@ -470,7 +470,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             {/* Column 1 */}
             <div>
-              <h3 className="text-2xl font-bold mb-4">KRMA</h3>
+              <h3 className="text-2xl font-bold mb-4">KRMAS</h3>
               <p className="text-sm text-muted-foreground">
                 AI Automation Agency helping businesses scale with intelligent solutions.
               </p>
@@ -512,7 +512,7 @@ const Index = () => {
           </div>
 
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} KRMA AI Agency. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} KRMAS AI Agency. All rights reserved.</p>
           </div>
         </div>
       </footer>
