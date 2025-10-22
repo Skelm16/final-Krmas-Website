@@ -19,6 +19,7 @@ const Index = () => {
             },
           },
           fpsLimit: 60,
+<<<<<<< HEAD
           interactivity: {
             events: {
               onHover: { enable: true, mode: "repulse" },
@@ -30,6 +31,8 @@ const Index = () => {
               push: { quantity: 3 },
             },
           },
+=======
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
           particles: {
             color: {
               value: "#ffffff",
@@ -38,12 +41,20 @@ const Index = () => {
               color: "#ffffff",
               distance: 150,
               enable: true,
+<<<<<<< HEAD
               opacity: 0.25,
+=======
+              opacity: 0.2,
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
               width: 1,
             },
             move: {
               enable: true,
+<<<<<<< HEAD
               speed: 2,
+=======
+              speed: 1,
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
               direction: "none",
               random: false,
               straight: false,
@@ -56,7 +67,11 @@ const Index = () => {
                 enable: true,
                 area: 800,
               },
+<<<<<<< HEAD
               value: 140,
+=======
+              value: 80,
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
             },
             opacity: {
               value: 0.3,
@@ -70,8 +85,11 @@ const Index = () => {
           },
           detectRetina: true,
         });
+<<<<<<< HEAD
       } else {
         console.warn("tsParticles CDN not loaded. Check network or switch to npm package (particles.js.org)");
+=======
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
       }
     };
 
@@ -105,6 +123,7 @@ const Index = () => {
               <button onClick={() => scrollToSection("about")} className="hover:text-accent transition-colors">
                 About
               </button>
+<<<<<<< HEAD
               <Button 
                 size="sm" 
                 variant="secondary" 
@@ -115,6 +134,11 @@ const Index = () => {
                   Let's Talk
                 </a>
               </Button>
+=======
+              <button onClick={() => scrollToSection("contact")} className="hover:text-accent transition-colors">
+                Contact
+              </button>
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
             </div>
           </div>
         </div>
@@ -122,8 +146,13 @@ const Index = () => {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+<<<<<<< HEAD
         <div id="particles-hero" className="absolute inset-0 z-10"></div>
         <div className="hero-gradient absolute inset-0 z-0 pointer-events-none"></div>
+=======
+        <div id="particles-hero" className="absolute inset-0"></div>
+        <div className="hero-gradient absolute inset-0 z-10"></div>
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
         <div className="section-container relative z-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
             KRMA • Krish's AI Agency
@@ -462,6 +491,125 @@ const Index = () => {
         </div>
       </section>
 
+<<<<<<< HEAD
+=======
+      {/* Contact Section */}
+      <section id="contact" className="section-padding bg-background">
+        <div className="section-container">
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Left Column - Form */}
+            <div>
+              <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
+              <p className="text-muted-foreground mb-8">
+                Share a few details and Krish will follow up for a quick consultation. Typically within 1 business day.
+              </p>
+
+              <form method="POST" action="YOUR_WORDPRESS_ENDPOINT_URL_HERE" className="space-y-6">
+                <div>
+                  <Label htmlFor="name">Name *</Label>
+                  <Input 
+                    id="name" 
+                    name="name" 
+                    required 
+                    className="mt-2 bg-card"
+                  />
+                </div>
+
+                <div>
+                  <Label htmlFor="email">Email *</Label>
+                  <Input 
+                    id="email" 
+                    name="email" 
+                    type="email" 
+                    required 
+                    className="mt-2 bg-card"
+                  />
+                </div>
+
+                <div>
+                  <Label htmlFor="phone">Phone</Label>
+                  <Input 
+                    id="phone" 
+                    name="phone" 
+                    type="tel" 
+                    className="mt-2 bg-card"
+                  />
+                </div>
+
+                <div>
+                  <Label htmlFor="message">Message *</Label>
+                  <Textarea 
+                    id="message" 
+                    name="message" 
+                    required 
+                    rows={5}
+                    className="mt-2 bg-card"
+                  />
+                </div>
+
+                <Button type="submit" size="lg" className="w-full">
+                  Send message
+                </Button>
+
+                <p className="text-xs text-muted-foreground">
+                  By submitting, you agree to our privacy policy. We'll never share your info.
+                </p>
+              </form>
+            </div>
+
+            {/* Right Column - Info */}
+            <div>
+              <h3 className="text-2xl font-bold mb-6">Contact information</h3>
+              
+              <div className="space-y-6 mb-10">
+                <div className="flex items-start gap-4">
+                  <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold mb-1">Email</p>
+                    <a href="mailto:krishgobindsriram16@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      krishgobindsriram16@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <MessageSquare className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold mb-1">WhatsApp</p>
+                    <a href="https://wa.me/919445582870" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 9445582870
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold mb-1">Location</p>
+                    <p className="text-muted-foreground">Chennai, India (IST)</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="font-semibold mb-1">Business hours</p>
+                    <p className="text-muted-foreground">Mon–Fri, 9:00–18:00 IST</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-card border border-border rounded-lg p-6">
+                <h4 className="text-xl font-bold mb-4">What happens next</h4>
+                <p className="text-muted-foreground">
+                  After you submit the form, Krish will reach out to schedule a 20–30 minute consultation and outline next steps.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
 
       {/* Footer */}
       <footer className="bg-secondary/30 border-t border-border py-12">
@@ -484,6 +632,14 @@ const Index = () => {
                     About
                   </button>
                 </li>
+<<<<<<< HEAD
+=======
+                <li>
+                  <button onClick={() => scrollToSection("contact")} className="text-muted-foreground hover:text-primary transition-colors">
+                    Contact
+                  </button>
+                </li>
+>>>>>>> dca432f0a0cbbee2e0dc52f265d042454c8f7b3e
               </ul>
             </div>
 
