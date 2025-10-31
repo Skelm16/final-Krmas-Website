@@ -242,13 +242,8 @@ const AboutMe = () => {
         </div>
       </section>
 
-      {/* About Me Section with Background Image */}
-      <section id="about-me" className="relative z-20 min-h-[600px] flex items-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/about-me.png')" }}
-        />
-        <div className="absolute inset-0 bg-black/65"></div>
+      {/* About Me Section */}
+      <section id="about-me" className="relative z-20 min-h-[600px] flex items-center bg-background">
         <div className="relative z-10 px-6 md:px-12 lg:px-16 xl:px-24">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
